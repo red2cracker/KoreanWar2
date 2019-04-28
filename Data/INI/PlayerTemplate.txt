@@ -1,0 +1,129 @@
+;South Korea
+PlayerTemplate FactionSouthKorea
+  Side              = SouthKorea
+  BaseSide          = USA ;China
+  PlayableSide      = Yes
+  StartMoney        = 0
+  PreferredColor    = R:0 G:0 B:255
+  IntrinsicSciences = SCIENCE_CHINA
+  PurchaseScienceCommandSetRank1  = SCIENCE_AMERICA_CommandSetRank1
+  PurchaseScienceCommandSetRank3  = SCIENCE_AMERICA_CommandSetRank3
+  PurchaseScienceCommandSetRank8  = SCIENCE_AMERICA_CommandSetRank8
+  SpecialPowerShortcutCommandSet  = SpecialPowerShortcutUSA
+  SpecialPowerShortcutWinName     = GenPowersShortcutBarUS.wnd
+  SpecialPowerShortcutButtonCount = 10
+  DisplayName       = INI:FactionSouthKorea
+  StartingBuilding  = SouthKoreaCommandCenter ;ChinaCommandCenter
+  StartingUnit0     = SouthKoreaVehicleDozer ;NorthKoreaVehicleDozer ;ChinaVehicleDozer
+  ;StartingUnit1     = SouthKoreaInfantryK11Rifle ;SouthKoreaVehicleAH64 ;SouthKoreaVehicleK30 ;SouthKoreaInfantryK11Rifle ;SouthKoreaTankK1A1New ;SouthKoreaInfantryK2Rifle ;SouthKoreaInfantryK4Grenade ;SouthKoreaInfantryPZF3 ;SouthKoreaVehicleK200 ;SouthKoreaVehicleK200 ;SouthKoreaVehicleKMSAM ;SouthKoreaVehicleK21 ;SouthKoreaVehicleAH1 ;SouthKoreaVehicleAH64 ;SouthKoreaTankK1A1New ;SouthKoreaVehicleChunmoo ;NorthKoreaVehicleSangOSubmarine ;SouthKoreaVehicleHyunmoo1 ;ChinaVehicleHelixTest ;SouthKoreaTankLeopard2A4 ;SouthKoreaVehiclePKXA ;SouthKoreaVehicleE737 ;SouthKoreaVehicleMi28 ;SouthKoreaTankT80BV
+  ;StartingUnit2     = SouthKoreaInfantryMortar ;SouthKoreaInfantryM67Rifle ;SouthKoreaTankK2 ;SouthKoreaInfantryK3MachineGun ;SouthKoreaInfantryK2Rifle ;ChinaInfantryRedguard ;SouthKoreaTankK2 ;SouthKoreaInfantryMortar ;SouthKoreaTankK2 ;SouthKoreaVehicleK200 ;NorthKoreaVehicleKN08 ;SouthKoreaVehicleK21 ;SouthKoreaVehicleAH1 ;SouthKoreaTankK1A1 ;NautralVehicleSA11 ;AmericaVehicleTomahawkTest ;ChinaVehicleHelixTest ;SouthKoreaVehicleHyunmoo3 ;SouthKoreaVehicleBMP3
+  ;StartingUnit3     = SouthKoreaVehicleHyunmoo3 ;SouthKoreaVehicleAH64 ;SouthKoreaVehicleAH6 ;SouthKoreaInfantryK2Medic ;NorthKoreaInfantryRPK ;SouthKoreaInfantryRanger ;SouthKoreaInfantrySingung ;SouthKoreaVehicleAH1 ;SouthKoreaVehicleK21 ;ChinaVehicleHelixTest ;SouthKoreaVehicleAH6 ;SouthKoreaTankK1A1New ;SouthKoreaVehicleKMSAM ;NorthKoreaVehicleMi8
+  ;StartingUnit4     = SouthKoreaInfantryK4Grenade ;SouthKoreaInfantrySingung ;SouthKoreaInfantryK11Rifle ;Infa_ChinaInfantryMiniGunner ;ChinaVehicleHelixTest ;SouthKoreaVehicleAH64 ;SouthKoreaVehicleK30 ;SouthKoreaVehicleK200 ;SouthKoreaVehicleK9 ;GLAInfantryRebelTest
+  ;StartingUnit5     = ChinaVehicleHelixTest ;SouthKoreaInfantryM67Rifle
+  ;StartingUnit6     = SouthKoreaInfantryK4Grenade ;SouthKoreaInfantryPZF3
+  ;StartingUnit7     = SouthKoreaVehicleChunmoo ;SouthKoreaVehicleAH64 ;SouthKoreaInfantrySingung
+  ;StartingUnit8     = SouthKoreaVehicleAH64 ;SouthKoreaVehicleMLRS ;SouthKoreaInfantryMortar ;SouthKoreaVehicleAH64
+  ;StartingUnit9     = SouthKoreaVehicleKMSAM ;SouthKoreaVehicleChunma ;SouthKoreaInfantryK4Grenade
+  ScoreScreenImage  = America_ScoreScreen
+  LoadScreenImage   = SAFactionLogoPage_US
+  LoadScreenMusic   = Load_USA
+  ScoreScreenMusic  = Score_USA
+  ;HeadWaterMark    = SCTempSelectPortrait ; don't use unless we add a "generalshead for non selected generals
+  FlagWaterMark     = WatermarkUSA
+  EnabledImage      = SSObserverUSA
+  BeaconName        = MultiplayerBeacon
+  SideIconImage     = GameinfoAMRCA
+  GeneralImage      = USA_Logo
+  OldFaction        = Yes   ; This faction was available in the original Generals and should be available even if the oldFactionsOnly flag is set
+  ArmyTooltip       = TOOLTIP:BioStrategyLong_SouthKorea
+  Features          = GUI:BioFeatures_SouthKorea
+  MedallionRegular  = USAGeneral_slvr
+  MedallionHilite   = USAGeneral_blue
+  MedallionSelect   = USAGeneral_orng
+End
+
+;ChinaVehicleHelixTest
+;SouthKoreaVehicleAH64
+
+;North Korea
+PlayerTemplate FactionNorthKorea
+  Side              = NorthKorea
+  BaseSide          = China
+  PlayableSide      = Yes
+  StartMoney        = 0
+  PreferredColor    = R:255 G:0 B:0
+  IntrinsicSciences = SCIENCE_CHINA
+  PurchaseScienceCommandSetRank1 = SCIENCE_CHINA_CommandSetRank1
+  PurchaseScienceCommandSetRank3 = SCIENCE_CHINA_CommandSetRank3
+  PurchaseScienceCommandSetRank8 = SCIENCE_CHINA_CommandSetRank8
+  SpecialPowerShortcutCommandSet = SpecialPowerShortcutChina
+  SpecialPowerShortcutWinName     = GenPowersShortcutBarChina.wnd
+  SpecialPowerShortcutButtonCount = 10
+  DisplayName       = INI:FactionNorthKorea
+  StartingBuilding  = NorthKoreaCommandCenter ;ChinaCommandCenter
+  StartingUnit0     = NorthKoreaVehicleDozer ;ChinaVehicleDozer
+  ;StartingUnit1     = NorthKoreaVehicleKN09 ;NorthKoreaVehicleBM21 ;NorthKoreaVehicleShilka ;NorthKoreaInfantryAK74 ;NorthKoreaTankPokpungho ;NorthKoreaTankChunmaho ;NorthKoreaInfantryAK74 ;NorthKoreaVehicleType63MRL ;NorthKoreaInfantryRPK ;NorthKoreaInfantryAK74 ;NorthKoreaTankPokpungho ;NorthKoreaVehicleBTR80 ;NorthKoreaInfantryRedguard ;NorthKoreaVehicleKN06 ;NorthKoreaVehicleShilka ;NorthKoreaVehicleBTR80 ;NorthKoreaVehicleMi24
+  ;StartingUnit2     = SouthKoreaVehicleChunmoo ;NorthKoreaVehicleQuadCannon2 ;NorthKoreaInfantryRPK ;NorthKoreaInfantryRPK ;NorthKoreaVehicleSA13 ;NorthKoreaTankPokpungho ;ChinaVehicleHelixTest ;NorthKoreaVehicleMi24 ;NorthKoreaTankPokpungho ;NorthKoreaVehicleShilka ;SouthKoreaVehicleAH1 ;ChinaVehicleHelixTest
+  ;StartingUnit3     = SouthKoreaVehicleK136 ;NorthKoreaInfantryDragunovSVD ;NorthKoreaInfantryDragunovSVD ;SouthKoreaVehicleAH1 ;NorthKoreaInfantryDragunovSVD ;AmericaInfantryPathfinder ;NorthKoreaVehicleMi24 ;SouthKoreaVehicleAH1 ;NorthKoreaVehicleShilka ;NorthKoreaVehicleMi8
+  ;StartingUnit4     = NorthKoreaInfantryIgla ;NorthKoreaInfantryAT4 ;NorthKoreaVehicleMi8 ;SouthKoreaVehicleAH1 ;GLAInfantryRebelTest
+  ;StartingUnit5     = ChinaVehicleHelixTest ;NorthKoreaVehicleKN06 ;NorthKoreaInfantryAT4
+  ;StartingUnit6     = NorthKoreaInfantryRPG7 ;NorthKoreaVehicleMi24 ;NorthKoreaInfantryIgla
+  ;StartingUnit7     = NorthKoreaVehicleMi24 ;NorthKoreaVehicleM1991 ;NorthKoreaVehicleMi24
+  ;StartingUnit8     = NorthKoreaVehicleMi8 ;NorthKoreaVehicleType63MRL
+  ScoreScreenImage  = China_ScoreScreen
+  LoadScreenImage   = SNFactionLogoPage_China
+  LoadScreenMusic   = Load_China
+  ScoreScreenMusic  = Score_China
+  ;HeadWaterMark    = SCTempSelectPortrait ; don't use unless we add a "generalshead for non selected generals
+  FlagWaterMark     = WatermarkChina
+  EnabledImage      = SSObserverChina
+  BeaconName        = MultiplayerBeacon
+  SideIconImage     = GameinfoCHINA
+  GeneralImage      = China_Logo
+  OldFaction        = Yes   ; This faction was available in the original Generals and should be available even if the oldFactionsOnly flag is set
+  ArmyTooltip       = TOOLTIP:BioStrategyLong_NorthKorea
+  Features          = GUI:BioFeatures_NorthKorea
+  MedallionRegular  = ChinaGeneral_slvr
+  MedallionHilite   = ChinaGeneral_blue
+  MedallionSelect   = ChinaGeneral_orng
+End
+
+
+
+;Rebel Army
+PlayerTemplate FactionRebelArmy
+  Side              = RebelArmy
+  BaseSide          = GLA
+  PlayableSide      = Yes
+  StartMoney        = 0
+  PreferredColor    = R:0 G:255 B:0
+  IntrinsicSciences = SCIENCE_GLA
+  PurchaseScienceCommandSetRank1 = SCIENCE_GLA_CommandSetRank1
+  PurchaseScienceCommandSetRank3 = SCIENCE_GLA_CommandSetRank3
+  PurchaseScienceCommandSetRank8 = SCIENCE_GLA_CommandSetRank8
+  SpecialPowerShortcutCommandSet = SpecialPowerShortcutGLA
+  SpecialPowerShortcutWinName     = GenPowersShortcutBarGLA.wnd
+  SpecialPowerShortcutButtonCount = 10
+  DisplayName       = INI:FactionRebelArmy
+  StartingBuilding  = RebelArmyCommandCenter ;GLACommandCenter
+  StartingUnit0     = RebelArmyInfantryWorker
+  StartingUnit1     = RebelArmyVehicleTheIron ;RebelArmyVehicleGinkotz
+  StartingUnit2     = RebelArmyVehicleGinkotz ;RebelArmyVehicleIronNokana ;ChinaVehicleHelixTest
+  ;StartingUnit3     = RebelArmyVehicleBradley
+  ScoreScreenImage  = GLA_ScoreScreen
+  LoadScreenImage   = SUFactionLogoPage_GLA
+  LoadScreenMusic   = Load_GLA
+  ScoreScreenMusic  = Score_GLA
+  ;HeadWaterMark    = SCTempSelectPortrait ; don't use unless we add a "generalshead for non selected generals
+  FlagWaterMark     = WatermarkGLA
+  EnabledImage      = SSObserverGLA
+  BeaconName        = MultiplayerBeacon
+  SideIconImage     = GameinfoGLA
+  GeneralImage      = GLA_Logo
+  OldFaction        = Yes   ; This faction was available in the original Generals and should be available even if the oldFactionsOnly flag is set
+  ArmyTooltip       = TOOLTIP:BioStrategyLong_RebelArmy
+  Features          = GUI:BioFeatures_RebelArmy
+  MedallionRegular  = GLAGeneral_slvr
+  MedallionHilite   = GLAGeneral_blue
+  MedallionSelect   = GLAGeneral_orng
+End
