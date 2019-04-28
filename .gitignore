@@ -53,3 +53,5 @@ Music.big
 BINKW32.DLL
 AudioZH.big
 AudioKoreanZH.big
+*.exe
+*.dat
