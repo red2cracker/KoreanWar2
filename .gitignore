@@ -55,3 +55,7 @@ AudioZH.big
 AudioKoreanZH.big
 *.exe
 *.dat
+wb_DebugLogFilePrevI.txt
+d3d8.dll
+d3d8.cfg
+gp.info
